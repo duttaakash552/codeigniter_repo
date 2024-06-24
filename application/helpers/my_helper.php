@@ -8,4 +8,13 @@ if ( ! function_exists('greet_user'))
         return "Hello, " . $name . "!";
     }
 }
+
+if ( ! function_exists('sum'))
+{
+    function sum($a, $b)
+    {
+        $sum = $a+$b;
+        return $sum;
+    }
+}
 ?>
