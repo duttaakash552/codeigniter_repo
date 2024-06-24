@@ -16,4 +16,12 @@ if ( ! function_exists('subtrsction'))
         return $subtrsctio;
     }
 }
+if ( ! function_exists('sum'))
+{
+    function sum($a, $b)
+    {
+        $sum = $a+$b;
+        return $sum;
+    }
+}
 ?>
