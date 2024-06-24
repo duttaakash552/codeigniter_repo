@@ -8,7 +8,14 @@ if ( ! function_exists('greet_user'))
         return "Hello, " . $name . "!";
     }
 }
-
+if ( ! function_exists('subtrsction'))
+{
+    function subtrsction($a, $b)
+    {
+        $subtrsction = $a-$b;
+        return $subtrsctio;
+    }
+}
 if ( ! function_exists('sum'))
 {
     function sum($a, $b)
